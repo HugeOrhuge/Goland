@@ -1,0 +1,119 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(150px,auto);
+}
+.text {
+    text-align: left;
+    color: aliceblue;
+    padding: 50px;
+    font-size: 150%;
+}
+.item1 {
+    background-color: crimson;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.item2 {
+    background-color: rgb(20, 133, 220);
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.item3 {
+    background-color: rgb(204, 248, 7);
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.item4 {
+    background-color: rgb(242, 4, 246);
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+.item5 {
+    background-color: rgb(9, 105, 239);
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.item6 {
+    background-color: rgb(6, 124, 242);
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.item7 {
+    background-color: crimson;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+}
+
+.item8 {
+    background-color: rgb(4, 242, 95);
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.item9 {
+    background-color: rgb(146, 18, 8);
+    grid-column: 4 / 6;
+    grid-row: 3 / 5;
+}
+
+.item10 {
+    background-color: rgb(11, 19, 250);
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+}
+
+.item11 {
+    background-color: rgb(52, 195, 238);
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.item12 {
+    background-color: rgb(245, 18, 113);
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.item13 {
+    background-color: rgb(50, 112, 199);
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.item14 {
+    background-color: rgb(240, 165, 15);
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+.item15 {
+    background-color: rgb(9, 148, 20);
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+
+.item16 {
+    background-color: rgb(148, 234, 114);
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+.item17 {
+    background-color: rgb(190, 20, 220);
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+}
+
+.item18 {
+    background-color: rgb(220, 167, 20);
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}

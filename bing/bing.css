@@ -1,0 +1,106 @@
+body {
+    background-image: url(580153.jpg);
+}
+*{
+padding: 0px;
+margin: 0px;
+}
+#bing {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#bing .head {
+    display: flex;
+    
+}
+#bing .head .logo {
+    width: 300px;
+    height: 100px;
+    margin-left: 40px;
+    background-image: url(微软.png);
+    background-position:  left;
+    background-repeat: no-repeat;
+}
+
+#bing .head .users {
+    width: 800px;
+    height: 40px;
+    margin-top: 30px;
+    background-image: url(用户-圆.png);
+    background-position:  right;
+    background-repeat: no-repeat;
+}
+
+#bing .head .menu {
+    width: 50px;
+    height: 40px;
+    margin-top: 30px;
+    background-image: url(菜单.png);
+    background-position:  right;
+    background-repeat: no-repeat;
+}
+
+#bing .head .nav {
+    height: 100px;
+    margin-top: 35px;
+}
+
+#bing .head .nav li{
+    color: #fff;
+    float: left;
+    margin-right: 2em;
+    list-style-type:none;
+}
+
+#bing .search {
+    display: flex;
+    margin-top: 15vh;
+    margin-left: 30vw;
+}
+
+#bing .search .area {
+    width: 60px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 22.5px;
+    line-height: 30px;
+    margin-left: 5px;
+    text-align:center;
+}
+
+#bing .sh {
+    /* margin-top: 15vh; */
+    display: flex;
+    width: 630px;
+    height: 65px;
+    margin-top: 5px;
+    margin-left: 28vw;
+    background-color: #fff;
+    border-radius: 32.5px;
+    border: none;
+}
+
+#bing .sh input {
+    /* display: block; */
+    width: 590px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#bing .footer {
+    position:absolute;
+    bottom: 0px;
+    background-color: rgb(51,51,51);
+
+}
+
+#bing .footer a {
+    text-decoration: none;
+    color: gray;
+}
